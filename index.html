@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header__container">
+        <img src="./images/logo.png" alt="">
+    </div>
+    <div class="keyboard__mode__container">
+        <input type="radio" id="englishMode" name="keyboard_type" value="ENGLISH" checked>
+        <label for="englishMode">English</label>
+        <input type="radio" id="morseCodeMode" name="keyboard_type" value="MORSE">
+        <label for="englishMode">Morse Code</label>
+    </div>
+    <div class="keyboard__container" id="keyboard__container"></div>
+    <div class="keyboard__input__container">
+        <textarea id="userInput" name="userInput" rows="5" cols="50" readonly></textarea>
+    </div>
+    <div class="buttons__container">
+        <button id="btn_translate">Translate</button>
+        <button id="btn_clear">Clear</button>
+    </div>    
+    <div class="translated__text__container" id="translated__text__container">
+        <textarea id="translated__text" name="translated__text" rows="5" cols="50" readonly></textarea>
+    </div>
+</body>
+</html>

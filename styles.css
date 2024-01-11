@@ -1,0 +1,63 @@
+body {
+    width: 99vw;
+    height: 99vh;
+    background: url('../images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    background-color: black;
+}
+
+.header__container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header__container > img {
+    height: 180px;
+}
+
+.keyboard__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.keyboard__container > button {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.keyboard__mode__container {
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.keyboard__input__container,
+.translated__text__container
+{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    resize: none;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.buttons__container {
+    display: flex;
+    justify-content: center;    
+}
+
+.buttons__container > button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
